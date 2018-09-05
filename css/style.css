@@ -119,7 +119,7 @@ button {
 
 /* videofitness styles */
 body {
-  background-color: lightpink;
+  background-color: #e3a495;
   font-family: "Comic Sans MS", san-serif;
   font-size: 80%;
 }
@@ -147,7 +147,7 @@ body {
 header {
   height: 125px;
   background: transparent url(../images/logo.png) no-repeat 0 18px;
-  border-bottom: 2px solid #C2CF00;
+  border-bottom: 2px solid #626900;
   position: relative;
   margin-bottom: 25px;
 }
@@ -164,10 +164,10 @@ header input {
   height: 16px;
   width: 150px;
   border: 2px solid #4E4F48;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
-  -o-border-radius: 7px;
-  border-radius: 7px;
+  -moz-border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -o-border-radius: 14px;
+  border-radius: 14px;
   behavior: url(PIE.htc);
 }
 header input[type=text] {
@@ -230,18 +230,18 @@ nav ul li a {
   position: relative;
   width: 112px;
   float: left;
-  background-color: #C2CF00;
+  background-color: #626900;
   margin-right: 5px;
   text-align: center;
   color: white;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
-  -o-border-radius: 7px;
-  border-radius: 7px;
+  -moz-border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -o-border-radius: 14px;
+  border-radius: 14px;
   behavior: url(PIE.htc);
 }
 nav ul li a:hover {
-  background-color: #f00;
+  background-color: aqua;
 }
 nav ul.account {
   float: none;
@@ -365,10 +365,10 @@ img {
   z-index: 200;
   padding: 10px 0px 10px 10px;
   line-height: 50px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -o-border-radius: 10px;
-  border-radius: 10px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
   behavior: url(PIE.htc);
 }
 

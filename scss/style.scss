@@ -6,17 +6,17 @@ Highlight:  #C2CF52
 
 //Sass variables
 $basefont: "Comic Sans MS", san-serif;
-$background: lightpink;
-$accent:#C2CF00;
-$base: #f00;
+$background: saturate(#D6ACA2, 20%);
+$accent:darken(#C2CF00, 20%);
+$base: complement(#f00);
 
 
 //Mixin
 @mixin rounded($radius: 7px){
-  -moz-border-radius: $radius;
-  -webkit-border-radius: $radius;
-  -o-border-radius: $radius;
-  border-radius: $radius;
+  -moz-border-radius: $radius * 2;
+  -webkit-border-radius: $radius * 2;
+  -o-border-radius: $radius * 2;
+  border-radius: $radius * 2;
   behavior: url(PIE.htc);
 }
 
